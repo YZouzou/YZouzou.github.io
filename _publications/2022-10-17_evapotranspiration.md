@@ -2,7 +2,7 @@
 title: "General and regional cross-station assessment of machine learning models for estimating reference evapotranspiration."
 collection: publications
 category: manuscripts
-permalink: /publication/2022-10-17-evapotranspiration
+permalink: /publication/2022-10-17_evapotranspiration
 excerpt: 'Estimating the hard-to-compute reference evapotranspiration (ET0) using machine learning models, and validating our approach using a cross-station assessment that simulates the potential usage of such estimation methods.'
 date: 2022-10-17
 venue: 'Acta Geophysica'

@@ -8,45 +8,52 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Download PDF]({{ site.baseurl }}/files/YasserZouzou_AcademicCV.pdf)
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **MSc in Data Science, Sabanci University** *(2024)*
+  * Thesis: Unsupervised detection of coordinated fake followers on social media
+  * GPA: 3.95/4.0 
+* **MSc in Civil Engineering, Erciyes University** *(2022)*
+  * Thesis: Comparison of Regional and General Machine learning Models for Reference Evapotranspiration Prediction in Turkey
+  * GPA: 4.0/4.0 
+* **BSc in Civil Engineering, Damascus University** *(2018)*
+  * GPA: 87/100 (3rd in class)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **AI Research Engineer, Huawei** *(Jan. 2024 - Present)*
+  * Task-specific and general instruction SFT of LLMs
+  * Synthetic data generation for SFT
+  * Developing customized RAG and agentic workflows
+  * Textual data curation, processing, and analysis
+  * Experimenting with latest research on model structure and training improvement
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming languages:** Python
+* **Frameworks:** PyTorch
+* **Libraries**: Pandas, Numpy, Matplotlib, NetworkX, transformers, accelerate
+* **Other**:
+  * Gephi (Network visualization)
+  * Dify (Agent orchestration)
+  * MySQL
+* **Languages:** Arabic (Native), English (Fluent), Turkish (Fluent)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Honors and Awards
+======
+* **Sabanci University Teaching Awards** *(December 2023)*: Second place in the teaching assistant yearly awards.
+* **[TUBITAK Scholarship](https://varollab.com/projects/chist-era.html)** *(Aug. 2023-Aug. 2024)*: Awarded a 100% tuition waiver and a monthly stipend as a researcher in the project [CON-NET](https://www.con-net-project.com/) funded by CHIST-ERA, EU, and TUBITAK 1071 programs.
+* **Sabancı University Scholarship** *(Sep. 2022-Aug. 2023)*: Awarded a 100% tuition scholarship and a monthly stipend as an MSc student
+* **[Turkiye Scholarships](https://www.turkiyeburslari.gov.tr)** *(Sep. 2019-Aug. 2022)*: Awarded a 100% tuition scholarship and a monthly stipend as an MSc Student
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -58,7 +65,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
